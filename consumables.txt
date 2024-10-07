@@ -1,0 +1,2 @@
+'market group for diesel','market for lubricating oil','market for wood pellet, measured as dry mass','market for light fuel oil'
+
