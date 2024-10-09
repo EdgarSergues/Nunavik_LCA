@@ -1,11 +1,11 @@
 Scenario Process,Exchange 1 (Name),Exchange 1 (Amount),Exchange 1 (Unit),Exchange 2 (Name),Exchange 2 (Amount),Exchange 2 (Unit),Exchange 3 (Name),Exchange 3 (Amount),Exchange 3 (Unit),Exchange 4 (Name),Exchange 4 (Amount),Exchange 4 (Unit)
-"offsite_heat, baseline, use phase",,,,,,,,,,,,
-,"offsite_heat production, light fuel oil, at boiler 100kW, non-modulating_use",1.0,megajoule,,,,,,,,,
-"onsite_heat, baseline, production phase",,,,,,,,,,,,
+"offsite_heat, baseline, production phase",,,,,,,,,,,,
 ,chimney production_prod,4.1825000000000003e-07,meter,,,,,,,,,
 ,"oil boiler production, 100kW_prod",9.798999999999999e-08,unit,,,,,,,,,
 ,"oil storage production, 3000l_prod",1.8124166666666666e-07,unit,,,,,,,,,
 "offsite_heat, baseline, distribution phase",,,,,,,,,,,,
+"offsite_heat, baseline, use phase",,,,,,,,,,,,
+,"offsite_heat production, light fuel oil, at boiler 100kW, non-modulating_use",1.0,megajoule,,,,,,,,,
 "offsite_heat, baseline, end of life phase",,,,,,,,,,,,
 ,offsite_chimney production_eol,4.1825000000000003e-07,meter,,,,,,,,,
 ,"offsite_oil boiler production, 100kW_eol",9.798999999999999e-08,unit,,,,,,,,,
@@ -42,11 +42,11 @@ Scenario Process,Exchange 1 (Name),Exchange 1 (Amount),Exchange 1 (Unit),Exchang
 ,,,,,,,,,,offsite_road maintenance_cs,8.09172e-05,meter-year
 ,,,,,,,,,,"offsite_transport, freight, lorry >32 metric ton, EURO3_cs",1.0,ton kilometer
 ,,,,,,,,,,offsite_road construction_cs,-1.45614035087719e-05,kilogram
-"onsite_heat, baseline, distribution phase",,,,,,,,,,,,
-"offsite_heat, baseline, production phase",,,,,,,,,,,,
+"onsite_heat, baseline, production phase",,,,,,,,,,,,
 ,chimney production_prod,4.1825000000000003e-07,meter,,,,,,,,,
 ,"oil boiler production, 100kW_prod",9.798999999999999e-08,unit,,,,,,,,,
 ,"oil storage production, 3000l_prod",1.8124166666666666e-07,unit,,,,,,,,,
+"onsite_heat, baseline, distribution phase",,,,,,,,,,,,
 "onsite_heat, baseline, use phase",,,,,,,,,,,,
 ,"onsite_heat production, light fuel oil, at boiler 100kW, non-modulating_use",1.0,megajoule,,,,,,,,,
 "onsite_heat, baseline, end of life phase",,,,,,,,,,,,
